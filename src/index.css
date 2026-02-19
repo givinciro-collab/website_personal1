@@ -11,12 +11,10 @@
         background: url('/background.png') no-repeat center center fixed;
         background-size: cover;
     }
-    @media (prefers-color-scheme: dark) {
-        body {
-            background: linear-gradient(180deg, #0f172a 0%, #1e293b 50%, #0f172a 100%), url('/background.png') no-repeat center center fixed;
-             background-blend-mode: overlay;
-             background-size: cover;
-        }
+    .dark body {
+        background: linear-gradient(180deg, #0f172a 0%, #1e293b 50%, #0f172a 100%), url('/background.png') no-repeat center center fixed;
+        background-blend-mode: overlay;
+        background-size: cover;
     }
 }
 
