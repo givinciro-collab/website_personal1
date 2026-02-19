@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[75vh] flex flex-col justify-center py-12 md:py-20 px-4 md:px-6 max-w-4xl mx-auto"
+      className="flex flex-col justify-center py-8 md:py-16 px-4 md:px-6 max-w-4xl mx-auto"
     >
       <div className="rounded-2xl bg-white/70 dark:bg-slate-800/50 backdrop-blur-sm border border-slate-200/80 dark:border-slate-700/80 shadow-card p-8 md:p-10 flex flex-col md:flex-row md:items-center gap-8">
         {profileImage && (

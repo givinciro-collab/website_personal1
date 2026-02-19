@@ -2,7 +2,8 @@ import { useState } from 'react';
 import Section from './Section';
 import ScrollReveal from './ScrollReveal';
 import { siteData } from '../data/siteData';
-import { FlaskConical, X } from 'lucide-react';
+import ProjectCard from './ProjectCard';
+import { FlaskConical, FolderGit2, X } from 'lucide-react';
 
 function ResearchCard({ title, role, location, dates, bullets }) {
   return (
@@ -61,6 +62,20 @@ function ResearchExperience() {
         </div>
       </ScrollReveal>
 
+      {/* Projects Subsection */}
+      <div className="mt-16 space-y-8">
+        <h3 className="font-display text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">
+          Projects
+        </h3>
+        <div className="space-y-6">
+          {siteData.projects.map((project, i) => (
+            <ScrollReveal key={i} staggerIndex={i % 6}>
+              <ProjectCard {...project} />
+            </ScrollReveal>
+          ))}
+        </div>
+      </div>
+
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
@@ -82,7 +97,7 @@ function ResearchExperience() {
           </div>
         </div>
       )}
-    </Section>
+    </Section >
   );
 }
 

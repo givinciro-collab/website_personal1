@@ -237,6 +237,42 @@ export const siteData = {
     },
   ],
 
+  teachingExperience: [
+    {
+      company: 'Purdue University',
+      role: 'Graduate Teaching Assistant - Veterinary Public Health and Zoonosis',
+      location: 'West Lafayette, IN, USA',
+      dates: '01/2026 – present',
+      bullets: [],
+    },
+    {
+      company: 'Florianópolis City Hall - Directorate of Animal Welfare (DIBEA)',
+      role: 'Veterinary Surgery Internship Supervisor',
+      location: 'Florianópolis, SC, Brazil',
+      dates: '10/2021 – 07/2022',
+      bullets: [
+        'Intern: Gabriela Porto Pereira',
+        'Intern: Mariela Nicole Souza da Silva',
+      ],
+    },
+    {
+      company: 'Instituto Mix de Profissões [institute of mix professions]',
+      role: 'Lectured at Veterinary Technician classes',
+      location: 'Florianópolis, SC, Brazil',
+      dates: '08/2021 – 10/2021',
+      bullets: [
+        'Topics: animal care, hygiene and safety procedures, common diseases prevention',
+      ],
+    },
+    {
+      company: 'Santa Catarina State University (UDESC)',
+      role: 'Undergraduate Teaching Assistant - Veterinary Anesthesiology',
+      location: 'Lages, SC, Brazil',
+      dates: '08/2017 – 12/2017',
+      bullets: [],
+    },
+  ],
+
   communityService: [
     {
       organization: 'Humane Society for Greater Lafayette',
@@ -397,8 +433,8 @@ export const siteData = {
       { label: 'About', id: 'about' },
       { label: 'Education', id: 'education' },
       { label: 'Experience', id: 'experience' },
+      { label: 'Teaching', id: 'teaching' },
       { label: 'Research', id: 'research' },
-      { label: 'Projects', id: 'projects' },
       { label: 'Skills', id: 'skills' },
       { label: 'Community', id: 'community' },
       { label: 'Internships', id: 'internships' },

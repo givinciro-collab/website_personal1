@@ -20,7 +20,7 @@ All text and links live in **`src/data/siteData.js`**. Edit that file to update 
 
 ## Add your resume PDF
 
-Place your resume file as **`public/resume.pdf`**. The “Download Resume” button in the navbar will then link to it.
+Place your resume file as **`public/resume.pdf`**. The “Download CV” button in the navbar will then link to it.
 
 ## Build for production
 

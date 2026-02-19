@@ -2,8 +2,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
+import TeachingMentorship from './components/TeachingMentorship';
 import ResearchExperience from './components/ResearchExperience';
-import Projects from './components/Projects';
 import Internships from './components/Internships';
 import Skills from './components/Skills';
 import Education from './components/Education';
@@ -19,8 +19,8 @@ function App() {
         <About />
         <Education />
         <Experience />
+        <TeachingMentorship />
         <ResearchExperience />
-        <Projects />
         <Skills />
         <CommunityService />
         <Internships />

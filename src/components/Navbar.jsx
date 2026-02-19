@@ -42,15 +42,14 @@ function Navbar() {
             </a>
           ))}
           <a
-            href={nav.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 md:mt-0 md:ml-2 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-accent to-accent-light dark:from-accent-dark dark:to-accent text-white text-sm font-semibold shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
-            onClick={handleLinkClick}
+            href="/cv.pdf"
+            download="Giovanna_Vinci_Roberto_CV.pdf"
+            className="mt-2 md:mt-0 md:ml-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-accent to-accent-light dark:from-accent-dark dark:to-accent text-white text-sm font-semibold shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all whitespace-nowrap"
           >
             <FileDown className="w-4 h-4" />
-            Download Resume
+            Download CV
           </a>
+
         </div>
       </nav>
     </header>
