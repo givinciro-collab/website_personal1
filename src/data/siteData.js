@@ -16,7 +16,7 @@ export const siteData = {
 
   about: [
     'I am a PhD student at Purdue University’s College of Veterinary Medicine, working in the Comparative Pathobiology Department with a focus on epidemiology and One Health.',
-    'My experience spans small animal practice, surgery, teaching, and public health outreach in Brazil and the United States.',
+    'My experience spans small animal practice, surgery, teaching, and public health outreach in Brazil, Mexico, and the United States.',
     'I am passionate about improving disease preparedness and antimicrobial stewardship through research, extension, and tailored educational materials for producers and communities.',
     'I have led and contributed to projects funded by NADPRP and partnerships with Cornell and AgSEED, and I enjoy mentoring students and engaging in community outreach.',
     'I am bilingual (English and Portuguese) and value clear communication and collaboration across disciplines.',
